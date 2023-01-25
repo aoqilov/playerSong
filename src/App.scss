@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  overflow-y: hidden;
+}
+.navbar-main {
+  height: 11vh;
+}
+.three {
+  width: 100%;
+  height: 89vh;
+  display: flex;
+  .albom-main {
+    width: 17%;
+  }
+  .table-main {
+    width: 45%;
+  }
+  .play {
+    width: 38%;
+  }
+}
+
+@import "./components/bilboard/bilboard.scss";
+@import "./components/mostpopular/mostpol.scss";
+@import "./components/navbar/navbar.scss";
+@import "./components/playing/player.scss";
+@import "./components/sidebar/sidebar.scss";

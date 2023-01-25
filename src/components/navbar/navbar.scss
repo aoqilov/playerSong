@@ -1,0 +1,50 @@
+.navbar {
+  width: 100%;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 45px;
+  }
+  .search-box {
+    width: 50%;
+    input {
+      outline: none;
+      border: 1px solid rgba(119, 136, 153, 0.601);
+      box-shadow: 2px 2px 4px lightgray;
+      border-radius: 15px;
+      padding: 8px 15px;
+      width: 70%;
+    }
+  }
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    .icon {
+      font-size: 25px;
+      color: lightslategray;
+      margin-right: 15px;
+      transition: 0.3s all ease-in;
+      &:hover {
+        transform: rotate(360deg);
+        cursor: pointer;
+      }
+    }
+    .upgrade {
+      border: none;
+      padding: 7px 9px;
+      border-radius: 15px;
+      background-color: rgb(233, 35, 35);
+      color: white;
+      letter-spacing: 1px;
+      box-shadow: 2px 2px 4px gray;
+      transition: 0.1s all;
+      cursor: pointer;
+
+      &:active {
+        transform: translateX(-3px);
+      }
+    }
+  }
+}

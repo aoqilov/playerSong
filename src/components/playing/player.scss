@@ -1,0 +1,76 @@
+.play-m {
+  width: 100%;
+  height: 100%;
+  h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .box {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    height: 100%;
+    .img-box {
+      border-radius: 15px;
+      box-shadow: 2px 2px 8px gray;
+      width: 80%;
+      height: 70%;
+      padding: 10px;
+      margin: 5px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        margin-top: 15px;
+        width: 205px;
+        height: 205px;
+        object-fit: cover;
+        border-radius: 50%;
+        transition: 5s all ease;
+        &:hover {
+          transform: rotate(360deg);
+        }
+      }
+      h4 {
+        margin-top: 10px;
+        font-size: 25px;
+        color: rgb(95, 84, 84);
+        text-transform: capitalize;
+      }
+      h6 {
+        font-size: 19px;
+        color: gray;
+        text-transform: capitalize;
+      }
+      .range {
+        width: 90%;
+        margin-top: 10px;
+        input {
+          width: 100%;
+          cursor: pointer;
+        }
+        .time-music {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 15px;
+          color: rgb(105, 93, 93);
+        }
+      }
+    }
+    .icons {
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+
+      .icon {
+        font-size: 45px;
+        margin: 0 20px;
+        color: rgb(84, 72, 72);
+        cursor: pointer;
+      }
+    }
+  }
+}
